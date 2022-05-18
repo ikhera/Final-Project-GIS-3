@@ -1,4 +1,4 @@
-# **Mapping the Predominent Non-English Language in each Chicago Neighborhood**
+# Mapping the Predominent Non-English Language in each Chicago Neighborhood**
 
 
 ### According to 2015 Census Data, 15.7% of Chicago's population does not speak English as their predominant language - approximately 400,000 residents. Spanish is the largest non English predomminant language spoken in the city, followed by Mandarin and Polish. I wanted to use the skills I gained this quarter to explore the distribution of these non English languages spatially, across Chicago. I used a data set from the Chicago Data Portal that provides the predominent non English language spoken in each of Chicago's 77 community areas. 
@@ -20,6 +20,8 @@
 
 
 ### My data was sourced from the Chicago Data Portal, and spans the years 2008-2012. It is linked [here](https://data.cityofchicago.org/Health-Human-Services/Census-Data-Languages-spoken-in-Chicago-2008-2012/a2fk-ec6q).
+
+### There are several places for improvement in this project. I was frustrated by how old the data I was working with was. The set spans the four years between 2008 - 2012 - over 10 yaers ago. The age of the data means the map, although interesting, is not a current snapshot of languages in Chicago. I would love to entirely redo this project with an updated and recent data set, and would be curious to see whether it captured any recent migration trends. If I had more time, I would also love to explor the OTHER non-English languages spoken in each neighborhood and see how their distribution might shed insight on different communities. 
 
 ## Methods + RMarkdown
 
