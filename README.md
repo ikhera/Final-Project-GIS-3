@@ -30,3 +30,5 @@
 
 ### I used StoryMap to incorporate the archival and historical about different communities. You can learn more about my process of working with StoryMap in the StoryMap File! 
 
+### In order to maximize the accessibility of this project, I have included all my data sources + research sources in the Data Folder. Feel free to dig around there if you want to see the data set OR learn more about Chicago's many languages and communities! 
+
