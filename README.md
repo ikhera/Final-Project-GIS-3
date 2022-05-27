@@ -35,6 +35,9 @@
 
 ### I used R to clean my data and create the map which would function as my basemap throughout the project. The link to my R Markdown is here. I have also included a screenshot of my code here. 
 
+
+### Although cleaning my data in R was relatively straightforward, I ran into some significant troubles when I tried to extract the OSM Network. I will elaborate on this more in my RMarkdown folder.  
+
 ## Code Screenshot
 
 ### I used StoryMap to incorporate the archival and historical about different communities. You can learn more about my process of working with StoryMap in the StoryMap File! 
