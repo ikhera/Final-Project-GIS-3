@@ -23,11 +23,44 @@
 
 ### The second, significant goal of this project was to incorporate the historical and narrative aspects of these linguistic trends. I wanted the user to be able to click through a history of distinct immigrant groups in Chicago and learn about their languages. I was particularly eager to use StoryMap for this purpose, as it is a tool designed specifically for journalists to engage with spatial data in a storytelling context. 
 
-###IMAGE OF STOYRMAPSCREENSHOT
+<img width="1306" alt="Screen Shot 2022-05-27 at 5 56 03 PM" src="https://user-images.githubusercontent.com/70248566/170798289-0a2e274d-0002-4012-8cd0-7dd10f839e73.png">
 
-## MEHODS
 
-### I used R to clean my data and create the map which would function as my basemap throughout the project. The link to my R Markdown is here. I have also included a screenshot of my code here. 
+## Methods
+
+### I used R to clean my data and create the map which would function as my basemap throughout the project. The link to my R Markdown is here. I have also included my code here. 
+
+*Libraries*
+
+library(sf)
+library(tmap)
+
+*Reading in Data from the Chicago Data Portal*
+
+*Uploading the Community Area Shapefile*
+  
+  areas<-st_read("/cloud/project/GIS Final/Shape File/geo_export_9a2737c4-fc5a-4162-b9c2-0048bd7d4022.shp")
+
+*Assigning the name "geoid" to the variable "area_numbe", which represents the community area number in the shapefile (Chicago has 77)*
+ 
+  areas$geoid <-areas$area_numbe
+
+*Uploading the Census Language Data csv File*
+ 
+  languages<-read.csv("/cloud/project/GIS Final/Shape File/Languages 2.csv")
+
+*Assigning the name "geoid" to the variable "Community.Area", which represents the community area number in the language data set (Chicago has 77)*
+    
+   languages$geoid<-languages$Community.Area
+
+*Merging the Census Language Data csv with the Community Area Shapefile using the shared variable "geoid"*
+    
+merged<-merge(areas,languages,by="geoid") #merging by geoid, shared variable
+tmap_mode("view")
+
+*Customizing my map using tmap*
+
+tm_shape(merged)+ tm_fill("Language", palette = "Paired", title= "Predominant Non-English Language", alpha=0.6) +tm_scale_bar(color.dark="gray60")+tm_borders("black")+ tm_layout(main.title="Predominant Non-English Language in Chicago Neighborhoods")+tm_view(view.legend.position=c("right", "top"))
 
 
 ### Although cleaning my data in R was relatively straightforward, I ran into some significant troubles when I tried to extract the OSM Network and when I tried to upload my basemap. At this point, I figured the best thing to do would be a deep dive of my troubleshooting process. 
@@ -42,14 +75,17 @@
 
 ### In an ideal world, I would absolutely love to push myself to make a more challenging technical interactive map. I feel pretty silly I wasn't able to do this. 
 
-!(https://github.com/ikhera/Final-Project-GIS-3/blob/main/Screen%20Shot%202022-05-27%20at%203.00.43%20PM.png)
+
+<img width="1151" alt="Screen Shot 2022-05-27 at 3 00 43 PM" src="https://user-images.githubusercontent.com/70248566/170798241-0d143883-403f-415f-b2b2-50bb64199e0a.png">
 
 
 ### My second big point of frustration in my project was working to upload my basemap into Knight Labs StoryMap. At first, I used Imgur to link a published image of my basemap into StoryMap. However, this gave me a series of blank tiles. I then decided to use Zoomify and Photoshop. Although Zoomify didn't work, I was able to download a Zoomable plug in for Photoshop that allowed me to create a "zoomable" version of my image. The idea here is to basically have a zoomable image your user can easily interact with. 
 
 ### Once I had my Zoomable image via photoshop, I downloaded Github onto my desktop, uploaded the folder into a new GitHub Repository, and then published the page to the web. Finally, I used the GitHub link to link my Zoomable Image into StoryMap. Frustratingly, however, my results looked like the screenshot below. There was absolutely a basemap of some type, it just wasn't displaying any of my work. 
 
-## Code Screenshot
+
+<img width="1312" alt="Screen Shot 2022-05-27 at 4 47 20 PM" src="https://user-images.githubusercontent.com/70248566/170798308-00b68cee-5dfa-4717-8c1c-2d2ae6ce0465.png">
+
 
 ### If I had more time with this project, I would absolutely have gotten my basemap to work on StoryMap. I felt so frustrated it didn't, and this is one of the biggest shortcomings of my project in my opinion. 
 
