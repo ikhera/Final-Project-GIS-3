@@ -25,22 +25,40 @@
 
 ###IMAGE OF STOYRMAPSCREENSHOT
 
-### There are several places for improvement in this project. I was frustrated by how old the data I was working with was. The set spans the four years between 2008 - 2012 - over 10 years ago. The age of the data means the map, although interesting, is not a current snapshot of languages in Chicago. I would love to entirely redo this project with an updated and recent data set, and would be curious to see whether it captured any recent migration trends. If I had more time, I would also love to explor the OTHER non-English languages spoken in each neighborhood and see how their distribution might shed insight on different communities. 
-
-### I explore this more in my StoryMap file, but another source of frustration in this project was the lack of specificity around African Languages in the census data, coupled with a lack of historical information on African immigrants in Chicago. This lead me to explore gaps in census data and different organizations working to ensure the voices of African immigrants in Chicago are heard. 
-
-### I would also love to replicate this project was the SECOND predominant non-English language in each neighborhood to try and grasp how different immigrant and ethnic groups are sharing the same geographic space. 
-
 ## MEHODS
 
 ### I used R to clean my data and create the map which would function as my basemap throughout the project. The link to my R Markdown is here. I have also included a screenshot of my code here. 
 
 
-### Although cleaning my data in R was relatively straightforward, I ran into some significant troubles when I tried to extract the OSM Network. I will elaborate on this more in my RMarkdown folder.  
+### Although cleaning my data in R was relatively straightforward, I ran into some significant troubles when I tried to extract the OSM Network and when I tried to upload my basemap. At this point, I figured the best thing to do would be a deep dive of my troubleshooting process. 
+
+### My first challenge was to extract the OSM Network for Chicago and overlay it onto my map. The reason I wanted to do this was to basically ensure that when a viewer looked at my map, they didn't just zoom into a blob of color and could instead see actual streets! I closely followed the tutorial from class on extracting OSM networks, and was easily able to download the data for Chicago. However, every time I got to the next step of viewing/refining the data, I would get a fatal error message from R. 
+
+### I switched my project over to RStudio Cloud in order to avoid running into this problem, but I still got the same message. In an ideal world, I would have loved to pull in these road networks to enhance my map and make it more interactive and accessible. 
+
+### I then tried to use a shapefile of Building Footprints, because I figured that would be a little easier for me than using the OSM Networks directly. However, I also ran into significnat hurdles there. The .dbf portion of the shapefile would not upload into R Studio Cloud (I think the file was broken). 
+
+### In order to make up for this in a way I knew how, I decreased the alpha levels on my map so the basemap could be seen through the map. 
+
+### In an ideal world, I would absolutely love to push myself to make a more challenging technical interactive map. I feel pretty silly I wasn't able to do this. 
+
+!(https://65d97f8628714969b21691d28b1dc164.app.rstudio.cloud/file_show?path=%2Fcloud%2Fproject%2Fmmm.html)
+
+
+### My second big point of frustration in my project was working to upload my basemap into Knight Labs StoryMap. At first, I used Imgur to link a published image of my basemap into StoryMap. However, this gave me a series of blank tiles. I then decided to use Zoomify and Photoshop. Although Zoomify didn't work, I was able to download a Zoomable plug in for Photoshop that allowed me to create a "zoomable" version of my image. The idea here is to basically have a zoomable image your user can easily interact with. 
+
+### Once I had my Zoomable image via photoshop, I downloaded Github onto my desktop, uploaded the folder into a new GitHub Repository, and then published the page to the web. Finally, I used the GitHub link to link my Zoomable Image into StoryMap. Frustratingly, however, my results looked like the screenshot below. There was absolutely a basemap of some type, it just wasn't displaying any of my work. 
 
 ## Code Screenshot
 
-### I used StoryMap to incorporate the archival and historical about different communities. You can learn more about my process of working with StoryMap in the StoryMap File! 
+### If I had more time with this project, I would absolutely have gotten my basemap to work on StoryMap. I felt so frustrated it didn't, and this is one of the biggest shortcomings of my project in my opinion. 
+
+### There are several other places for improvement in this project. I was frustrated by how old the data I was working with was. The set spans the four years between 2008 - 2012 - over 10 years ago. The age of the data means the map, although interesting, is not a current snapshot of languages in Chicago. I would love to entirely redo this project with an updated and recent data set, and would be curious to see whether it captured any recent migration trends. If I had more time, I would also love to explor the OTHER non-English languages spoken in each neighborhood and see how their distribution might shed insight on different communities. 
+
+### I explore this more in my StoryMap file, but another source of frustration in this project was the lack of specificity around African Languages in the census data, coupled with a lack of historical information on African immigrants in Chicago. This lead me to explore gaps in census data and different organizations working to ensure the voices of African immigrants in Chicago are heard. 
+
+### I would also love to replicate this project was the SECOND predominant non-English language in each neighborhood to try and grasp how different immigrant and ethnic groups are sharing the same geographic space. 
+
 
 ### In order to maximize the accessibility of this project, I have included all my data sources + research sources in the Data Folder. Feel free to dig around there if you want to see the data set OR learn more about Chicago's many languages and communities! 
 
