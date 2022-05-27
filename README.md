@@ -42,7 +42,7 @@
 
 ### In an ideal world, I would absolutely love to push myself to make a more challenging technical interactive map. I feel pretty silly I wasn't able to do this. 
 
-!(https://65d97f8628714969b21691d28b1dc164.app.rstudio.cloud/file_show?path=%2Fcloud%2Fproject%2Fmmm.html)
+!(https://github.com/ikhera/Final-Project-GIS-3/blob/main/Screen%20Shot%202022-05-27%20at%203.00.43%20PM.png)
 
 
 ### My second big point of frustration in my project was working to upload my basemap into Knight Labs StoryMap. At first, I used Imgur to link a published image of my basemap into StoryMap. However, this gave me a series of blank tiles. I then decided to use Zoomify and Photoshop. Although Zoomify didn't work, I was able to download a Zoomable plug in for Photoshop that allowed me to create a "zoomable" version of my image. The idea here is to basically have a zoomable image your user can easily interact with. 
