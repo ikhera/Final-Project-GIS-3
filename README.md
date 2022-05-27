@@ -1,5 +1,7 @@
 # Mapping the Predominent Non-English Language in each Chicago Neighborhood**
 
+# [My StoryMap](https://uploads.knightlab.com/storymapjs/9d951daa95ba43a5949a57c4e7827f90/a-linguistic-history-of-chicago/index.html)
+
 
 ### According to 2015 Census Data, 15.7% of Chicago's population does not speak English as their predominant language - approximately 400,000 residents. Spanish is the largest non English predomminant language spoken in the city, followed by Mandarin and Polish. I wanted to use the skills I gained this quarter to explore the distribution of these non English languages spatially, across Chicago. I used a data set from the Chicago Data Portal that provides the predominent non English language spoken in each of Chicago's 77 community areas. 
 
@@ -95,6 +97,41 @@ tm_shape(merged)+ tm_fill("Language", palette = "Paired", title= "Predominant No
 
 ### I would also love to replicate this project was the SECOND predominant non-English language in each neighborhood to try and grasp how different immigrant and ethnic groups are sharing the same geographic space. 
 
-
 ### In order to maximize the accessibility of this project, I have included all my data sources + research sources in the Data Folder. Feel free to dig around there if you want to see the data set OR learn more about Chicago's many languages and communities! 
+
+# Data and Sources
+
+[LVEJO](http://www.lvejo.org/)
+
+[The Story of Little Village](https://interactive.wttw.com/chicago-by-l/neighborhoods/little-village)
+
+[The Face of the Mexican Chicago](https://scalar.usc.edu/works/latino-metropolis-a-brief-urban-cultural-history-of-us-latinos---1/the-face-of-the-mexican-chicago)
+
+[On Leong Merchant's Association Building](https://www.chicago.gov/content/dam/city/depts/zlup/Historic_Preservation/Publications/On_Leong_Merchants_Association_Building.pdf)
+
+[Chicago's Historic Polish Language Newspapers](https://www.library.illinois.edu/illinoisnewspaperproject/chicagos-historic-polish-language-newspapers/)
+
+[United African Organization](https://uniteafricans.org/about-uao/who-we-are)
+
+[A Taste of West Africa on the South Side](https://southsideweekly.com/taste-west-africa-south-side/)
+
+[Chicago Groups Preparing African Immigrants for the Census](https://www.wbez.org/stories/chicago-groups-preparing-african-immigrants-for-the-census/9a63f665-cfa9-4137-8a50-b11624a6a50a)
+
+[Little Village Arch, Gateway To ‘The Mexican Capital Of The Midwest,’ Is Now An Official City Landmark](https://blockclubchicago.org/2022/01/26/little-village-arch-gateway-to-the-mexican-capital-of-the-midwest-is-now-an-official-city-landmark/)
+
+[Creating a New Chinatown](https://americanhistory.si.edu/many-voices-exhibition/creating-community-chicago-and-los-angeles-1900%E2%80%931965/chicago/chinatown#:~:text=Chinese%20immigrants%20first%20settled%20in,the%20South%20Side%20in%201912.)
+
+[African immigrants hope for a Chicago community of their own](https://www.chicagotribune.com/news/ct-xpm-2013-01-14-ct-met-african-immigration-20130114-story.html)
+
+[The Story of Chicago’s Rise as a Distinctly Polish American City](https://news.wttw.com/2019/11/18/story-chicago-s-rise-distinctly-polish-american-city)
+
+[Census Language Data Set](https://data.cityofchicago.org/Health-Human-Services/Census-Data-Languages-spoken-in-Chicago-2008-2012/a2fk-ec6q)
+
+[Building Footprints Data Set](https://data.cityofchicago.org/Buildings/Building-Footprints-current-/hz9b-7nh8)
+
+
+
+
+
+
 
