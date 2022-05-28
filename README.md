@@ -104,9 +104,27 @@ tm_shape(merged)+ tm_fill("Language", palette = "Paired", title= "Predominant No
 ### I would also love to replicate this project was the SECOND predominant non-English language in each neighborhood to try and grasp how different immigrant and ethnic groups are sharing the same geographic space. 
 
 
-## StoryMap Highlights 
+## StoryMap Highlights and Results
+
+### I really enjoyed my experience of working with StoryMap. My map results followed anticipated historical trends based on my research. I was particularly excited by the two neighborhoods of African Languages which I was able to identify, since that move into the South Side has been relatively recent and many African immigrants still reside on the North Side. 
+
+### StoryMap allowed for me to use images and text to tell the stories of each of these different places around the city. To make up for my lack of personalized basemap, I made sure to include my map as much as possible and to refer back to it often. 
 
 
+<img width="1310" alt="Screen Shot 2022-05-28 at 10 05 27 AM" src="https://user-images.githubusercontent.com/70248566/170831411-1806d741-a9d0-4477-8eb1-2ef1d6b6c583.png">
+
+<img width="1436" alt="Screen Shot 2022-05-28 at 9 48 01 AM" src="https://user-images.githubusercontent.com/70248566/170831227-6c0fe171-add7-4006-9cc7-82cab207fc0d.png">
+
+<img width="1312" alt="Screen Shot 2022-05-28 at 10 04 57 AM" src="https://user-images.githubusercontent.com/70248566/170831237-91d5c3c0-926c-4bc1-a709-c67be5cda6ac.png">
+
+<img width="1310" alt="Screen Shot 2022-05-28 at 10 05 19 AM" src="https://user-images.githubusercontent.com/70248566/170831425-09eb8c3e-e9d2-4b7f-9abc-ec039a4a47b8.png">
+
+
+### I also really liked StoryMap's ability to zoom in closer to a specific neighborhood / to adjust the zoom. This let me pull in to specific landmarks across the city, like the Pui Tak Center.
+
+<img width="1309" alt="Screen Shot 2022-05-28 at 10 15 29 AM" src="https://user-images.githubusercontent.com/70248566/170831458-8ff34860-d473-4af1-bc40-985ed8c54b16.png">
+
+### Overall, I thought the Knight Lab's StoryMap was a great choice for this lab. That being said, I think I would like to transition over to using ArcGIS StoryMap for the rest of my work and career, primarily because of all the difficulty I had with the image compatability. It would be great if StoryMap could exist within the same platform I was designing my map, instead of having to go through the frustrating process of image conversion. 
 
 ## Data and Sources
 
@@ -137,9 +155,13 @@ tm_shape(merged)+ tm_fill("Language", palette = "Paired", title= "Predominant No
 
 [The Story of Chicago’s Rise as a Distinctly Polish American City](https://news.wttw.com/2019/11/18/story-chicago-s-rise-distinctly-polish-american-city)
 
+[Chicago Languages](https://www.chicago.gov/city/en/depts/mayor/supp_info/office-of-new-americans/language-access.html)
+
 [Census Language Data Set](https://data.cityofchicago.org/Health-Human-Services/Census-Data-Languages-spoken-in-Chicago-2008-2012/a2fk-ec6q)
 
 [Building Footprints Data Set](https://data.cityofchicago.org/Buildings/Building-Footprints-current-/hz9b-7nh8)
+
+
 
 
 
