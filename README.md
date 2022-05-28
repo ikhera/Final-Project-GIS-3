@@ -3,6 +3,7 @@
 
 # [My StoryMap](https://uploads.knightlab.com/storymapjs/9d951daa95ba43a5949a57c4e7827f90/a-linguistic-history-of-chicago/index.html)
 
+## This html link takes a bit of time to respond to edits in the main StoryMap, so I have also included screenshots of my final project in this README in case the link has not updated by the time the project is being viewed. 
 
 ## Research Question 1: How does the predominant non English language change over Chicago's community areas?  
 
@@ -106,7 +107,7 @@ tm_shape(merged)+ tm_fill("Language", palette = "Paired", title= "Predominant No
 
 ## StoryMap Highlights and Results
 
-### I really enjoyed my experience of working with StoryMap. My map results followed anticipated historical trends based on my research. I was particularly excited by the two neighborhoods of African Languages which I was able to identify, since that move into the South Side has been relatively recent and many African immigrants still reside on the North Side. 
+### My map results followed anticipated historical trends based on my research. I was particularly excited by the two neighborhoods of African Languages which I was able to identify, since that move into the South Side has been relatively recent and many African immigrants still reside on the North Side. 
 
 ### StoryMap allowed for me to use images and text to tell the stories of each of these different places around the city. To make up for my lack of personalized basemap, I made sure to include my map as much as possible and to refer back to it often. 
 
@@ -124,7 +125,45 @@ tm_shape(merged)+ tm_fill("Language", palette = "Paired", title= "Predominant No
 
 <img width="1309" alt="Screen Shot 2022-05-28 at 10 15 29 AM" src="https://user-images.githubusercontent.com/70248566/170831458-8ff34860-d473-4af1-bc40-985ed8c54b16.png">
 
-### Overall, I thought the Knight Lab's StoryMap was a great choice for this lab. That being said, I think I would like to transition over to using ArcGIS StoryMap for the rest of my work and career, primarily because of all the difficulty I had with the image compatability. It would be great if StoryMap could exist within the same platform I was designing my map, instead of having to go through the frustrating process of image conversion. 
+### Overall, I thought the Knight Lab's StoryMap was a great choice for this lab. That being said, I think I would like to transition over to using ArcGIS StoryMap for the rest of my work and career, primarily because of all the difficulty I had with the image compatability. The Knight Lab Sharing link also takes a significant amount of time to register updates, and I found the support/help pages to not be particularly helpful. I think because it is a service run by a small group of people at this point, there are definitely some limitations in its ability (like we discussed with Open Source Software). It would be great if StoryMap could exist within the same platform I was designing my map, instead of having to go through the frustrating process of image conversion. I also imagine ArcGIS has a more comprehensive help network. 
+
+
+# StoryMap Screenshots
+
+<img width="1312" alt="Screen Shot 2022-05-28 at 10 39 51 AM" src="https://user-images.githubusercontent.com/70248566/170832400-face52b4-130b-424e-ba8f-e438ba0ce1da.png">
+
+<img width="1310" alt="Screen Shot 2022-05-28 at 10 40 05 AM" src="https://user-images.githubusercontent.com/70248566/170832408-0efb9c69-2ee6-40b2-9722-0d8b4fb668e5.png">
+
+<img width="1308" alt="Screen Shot 2022-05-28 at 10 40 20 AM" src="https://user-images.githubusercontent.com/70248566/170832417-1660c6c9-6565-4a9a-b1c1-0eb8222d4c52.png">
+
+<img width="1312" alt="Screen Shot 2022-05-28 at 10 42 36 AM" src="https://user-images.githubusercontent.com/70248566/170832491-43b52b6f-0ae6-4cc7-a802-cbd9cce38d63.png">
+
+<img width="1311" alt="Screen Shot 2022-05-28 at 10 42 47 AM" src="https://user-images.githubusercontent.com/70248566/170832498-308d1e5e-0329-4c26-a7a2-7ea3c5502b81.png">
+
+<img width="1437" alt="Screen Shot 2022-05-28 at 10 40 33 AM" src="https://user-images.githubusercontent.com/70248566/170832427-28cd67cf-3c6f-460b-96cf-fc8e15d76905.png">
+
+<img width="1311" alt="Screen Shot 2022-05-28 at 10 44 08 AM" src="https://user-images.githubusercontent.com/70248566/170832538-404b525a-106f-4488-a51b-15a99d1dccb9.png">
+
+<img width="1310" alt="Screen Shot 2022-05-28 at 10 44 19 AM" src="https://user-images.githubusercontent.com/70248566/170832549-1d545ae9-d6f0-4ee1-a1a0-736c5cf11053.png">
+
+<img width="1310" alt="Screen Shot 2022-05-28 at 10 44 31 AM" src="https://user-images.githubusercontent.com/70248566/170832558-fe816a79-124a-413e-96a2-e08cf2cefd4b.png">
+
+<img width="1308" alt="Screen Shot 2022-05-28 at 10 44 43 AM" src="https://user-images.githubusercontent.com/70248566/170832565-65b7327a-da1e-4c0a-93b9-e35326e38565.png">
+
+<img width="1310" alt="Screen Shot 2022-05-28 at 10 44 54 AM" src="https://user-images.githubusercontent.com/70248566/170832579-a0897ef5-9469-4b4a-9fc5-b4f63ca79ef9.png">
+
+<img width="1308" alt="Screen Shot 2022-05-28 at 10 45 05 AM" src="https://user-images.githubusercontent.com/70248566/170832584-5a070541-a4e3-4b90-8853-6a2965090330.png">
+
+<img width="1310" alt="Screen Shot 2022-05-28 at 10 45 17 AM" src="https://user-images.githubusercontent.com/70248566/170832594-6d3465b1-4938-49f9-b869-f5da1fc14586.png">
+
+<img width="1311" alt="Screen Shot 2022-05-28 at 10 45 27 AM" src="https://user-images.githubusercontent.com/70248566/170832601-e9fe0bad-396a-47b6-a69e-2804dbf0ff7c.png">
+
+<img width="1311" alt="Screen Shot 2022-05-28 at 10 45 38 AM" src="https://user-images.githubusercontent.com/70248566/170832610-753e6585-8536-4001-9237-5ed8ef11e02f.png">
+
+<img width="1309" alt="Screen Shot 2022-05-28 at 10 45 49 AM" src="https://user-images.githubusercontent.com/70248566/170832616-5f7b6675-907f-4889-8f2e-f197bb4b49f3.png">
+
+<img width="1308" alt="Screen Shot 2022-05-28 at 10 46 00 AM" src="https://user-images.githubusercontent.com/70248566/170832624-754dd733-788e-473c-9060-1f9ee0040e5a.png">
+
 
 ## Data and Sources
 
@@ -160,8 +199,6 @@ tm_shape(merged)+ tm_fill("Language", palette = "Paired", title= "Predominant No
 [Census Language Data Set](https://data.cityofchicago.org/Health-Human-Services/Census-Data-Languages-spoken-in-Chicago-2008-2012/a2fk-ec6q)
 
 [Building Footprints Data Set](https://data.cityofchicago.org/Buildings/Building-Footprints-current-/hz9b-7nh8)
-
-
 
 
 
