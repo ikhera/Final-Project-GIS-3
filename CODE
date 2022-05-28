@@ -1,1 +1,29 @@
+#Libraries
 
+library(sf) library(tmap)
+
+#Reading in Data from the Chicago Data Portal
+
+#Uploading the Community Area Shapefile
+
+areas<-st_read("/cloud/project/GIS Final/Shape File/geo_export_9a2737c4-fc5a-4162-b9c2-0048bd7d4022.shp")
+
+#Assigning the name "geoid" to the variable "area_numbe", which represents the community area number in the shapefile (Chicago has 77)
+
+areas$geoid <-areas$area_numbe
+
+#Uploading the Census Language Data csv File
+
+languages<-read.csv("/cloud/project/GIS Final/Shape File/Languages 2.csv")
+
+#Assigning the name "geoid" to the variable "Community.Area", which represents the community area number in the language data set (Chicago has 77)
+
+languages$geoid<-languages$Community.Area
+
+#Merging the Census Language Data csv with the Community Area Shapefile using the shared variable "geoid"
+
+merged<-merge(areas,languages,by="geoid") merging by geoid, shared variable tmap_mode("view")
+
+#Customizing my map using tmap
+
+tm_shape(merged)+ tm_fill("Language", palette = "Paired", title= "Predominant Non-English Language", alpha=0.6) +tm_scale_bar(color.dark="gray60")+tm_borders("black")+ tm_layout(main.title="Predominant Non-English Language in Chicago Neighborhoods")+tm_view(view.legend.position=c("right", "top"))
